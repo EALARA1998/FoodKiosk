@@ -1,9 +1,9 @@
 {
   "functions": {
-    "api/**/*.[jt]s": {
+    "app/**/*.js": {
       "includeFiles": "node_modules/.prisma/client/libquery_engine-rhel-openssl-3.0.x.so.node"
     },
-    "app/**/*.[jt]s": {
+    "app/**/*.ts": {
       "includeFiles": "node_modules/.prisma/client/libquery_engine-rhel-openssl-3.0.x.so.node"
     }
   }
